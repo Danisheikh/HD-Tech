@@ -1,0 +1,296 @@
+html {
+    background-color:#1c1818;
+    height: 100%;
+}
+
+body{ 
+    background-color: #1c1818;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#headlogo {
+
+  margin-top: 20px;
+
+}
+
+.jumbotron {
+  height: 100%;
+  background-color: #1c1818;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-bar {
+  background-color: transparent;
+  margin-bottom: 20px;
+
+}
+
+.navbar-toggler-icon{
+  background-color: black;
+}
+
+
+.btn-outline-success {
+    color:  goldenrod;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background-image: none;
+    border-color:  goldenrod;
+}
+
+
+/* Partners Credentials  */
+
+.thingsAboutUs {
+  background-color: #fdFdf8;
+  font-family: "Idlewild A", "Idlewild B";
+  font-style: normal;
+  font-weight: 600;
+  background-size: cover;
+  height: 580px;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.heading{
+width:100%;
+text-align: center;
+margin: 0 auto;
+}
+
+.head1{
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-family: "Tungsten A", "Tungsten B";
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+color: #fff;
+}
+
+.head2{
+  text-align: center;
+  margin-top: 35px;
+  color: #F8E472;
+  font-size: 20px;
+
+}
+
+.btn-primary{
+  background-color: #F8E472;
+  color: #1c1818;
+}
+
+.mainBtn{
+  margin-top: 35px;
+ 
+}
+
+
+#slides {
+    align-content: center;
+    margin:0;
+    padding: 0;
+}
+
+ .serviceCards {
+    margin-top: 15px;
+} 
+
+
+
+
+/* Paralax */
+.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
+    /* Services Cards */
+
+    .card{
+      background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+      padding: 100px 0;
+      
+      width:300px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Satisfaction of Services */
+
+.numPercent-holder{
+
+ text-align: center;
+ width: 100%;
+ padding: 35px;
+ 
+}
+
+.numPercent{
+  width: 100%;
+  height: 250px;
+  padding: 105px;
+}
+
+.satisfaction {
+  text-align: center;
+  float: left;
+}
+
+.CompProjects{
+  float: left;
+}
+
+.yearsOfExperence{
+  float: left;
+}
+
+.certified{
+  float: left;
+}
+
+.num{
+  font-size: 50px;
+  color: #FEDB37;
+  margin-bottom: 20px;
+}
+
+.comments{
+  color: #fdFdf8;
+ 
+  
+}
+
+
+.CompProjects{
+  border-left: 1px solid #FFFFAC;
+}
+
+.yearsOfExperence{
+  border-left: 1px solid #FFFFAC;
+}
+
+.certified{
+  border-left: 1px solid #FFFFAC;
+}
+
+
+
+.husstel{
+  height: 250px;
+  padding: 125px;
+
+}
+.ourResults{
+  font-size: 20px;
+  color: rgb(252, 246, 246);
+ 
+}
+
+.ourEfforts{
+  font-size: 15px;
+  color: rgb(243, 236, 236);
+  
+}
+
+/* About Us */
+
+.aboutUs{
+  background-image: url("../AboutUsBg.png");
+  background-size: cover;
+  height: 900px;
+  text-align: right;
+
+}
+
+.about{
+  text-align: right;
+  color: #fff;
+  padding-right: 30px;
+  padding-top: 250px;
+  padding-left: 80px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+/* Lets Chat */
+
+.letsChat{
+  height:245px;
+  background-image: linear-gradient( #FADF4C,#F3D21C,#A9993D,#827216);
+  text-align: center;
+  line-height: 50px;
+  padding-top: 80px;
+
+}
+
+.gotProj{
+  font-size: 30px;
+
+}
+
+.chat{
+  font-size: 60px;
+}
+
+/* Marketig Video */
+
+.video{
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  padding-top: 200px;
+
+
+}
+
+
+
+/* Footer */
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 280px;
+  background-color: #1c1818;
+  
+}
+  
+
+.container {
+   width: auto;
+   max-width: 680px;
+  padding: 0 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+  }
+  .footertext {
+    color: #ffffff;
+}
+
+.img-circle{
+  height: 50px;
+}
